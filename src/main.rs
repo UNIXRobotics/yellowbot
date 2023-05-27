@@ -29,6 +29,7 @@ impl Robot for PissBot {
     }
 
     fn initialize(&mut self, _ctx: Context) {
+        println!("initialize");
         // Do any extra initialization here.
     }
 
