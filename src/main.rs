@@ -2,7 +2,6 @@
 #![no_main]
 
 use core::time::Duration;
-
 use vex_rt::{prelude::*, select};
 
 mod drive;
