@@ -1,9 +1,12 @@
 [package]
-name = "yellowbot"
+name = "piss-bot"
 version = "0.1.0"
+authors = ["PINKeHamton <118468254+PINKHampton@users.noreply.github.com>", "Nimjabeb <89930371+Nimjabeb@users.noreply.github.com>", "Evan <evanrayweigel@outlook.com>"]
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
-vex-rt = "0.15.1"
+[dependencies.vex-rt]
+# Comment out the version line and uncomment the git line to use pre-release versions.
+version = "0.15.1"
+# git = "https://gitlab.com/qvex/vex-rt.git"
