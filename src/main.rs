@@ -7,12 +7,12 @@ use vex_rt::{prelude::*, select};
 
 mod drive;
 
-struct MyRobot {
+struct PissBot {
     drive: Mutex<drive::Drive>,
     controller: Controller,
 }
 
-impl Robot for MyRobot {
+impl Robot for PissBot {
     fn new(peripherals: Peripherals) -> Self {
         Self {
             drive: Mutex::new(drive::Drive {
@@ -67,4 +67,4 @@ impl Robot for MyRobot {
     }
 }
 
-entry!(MyRobot);
+entry!(PissBot);
